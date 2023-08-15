@@ -1,0 +1,106 @@
+.home {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+}
+
+.btn {
+    background-color: #0056ff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0048d5;
+}
+
+
+
+/* ------------------------- */
+
+.employeeGrid {
+    margin: 20px 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+    position: relative;
+}
+
+.employeeCard {
+    background-color: #409cff45;
+    border-radius: 16px;
+    padding: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.addPopup {
+    position: absolute;
+    z-index: 3;
+    align-self: center;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    box-shadow: 3px 4px 5px 0px #b0a4a4;
+    border-radius: 16px;
+    padding: 20px;
+    padding-bottom: 30px;
+    top: 200px;
+}
+
+.inputFeild {
+    padding: 8px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.submitBtn {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0056ff;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.submitBtn:hover {
+    background-color: #0048d5;
+}
+
+.rowData{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin: 3px 0;
+    background-color: #ddd;
+    border-radius: 6px;
+    padding: 6px 10px;
+    align-items: center;
+}
